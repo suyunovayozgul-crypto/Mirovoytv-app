@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Mirovoy TV",
+    "slug": "mirovoy-tv",
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0c18"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "uz.mirovoytv.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0c18"
+      },
+      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"]
+    },
+    "owner": "tirkashs-team",
+    "extra": {
+      "eas": {
+        "projectId": "f9f6c481-6112-4001-9302-1c164e5f0175"
+      }
+    },
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-3940256099942544~3347511713"
+        }
+      ]
+    ]
+  }
+}

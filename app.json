@@ -20,6 +20,10 @@
       },
       "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"]
     },
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "uz.mirovoytv.app"
+    },
     "owner": "tirkashs-team",
     "extra": {
       "eas": {
@@ -30,7 +34,8 @@
       [
         "react-native-google-mobile-ads",
         {
-          "androidAppId": "ca-app-pub-3940256099942544~3347511713"
+          "androidAppId": "ca-app-pub-3940256099942544~3347511713",
+          "iosAppId": "ca-app-pub-3940256099942544~1458002511"
         }
       ]
     ]

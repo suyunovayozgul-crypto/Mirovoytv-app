@@ -28,6 +28,14 @@
           "ios": { "includeVLCKit": true },
           "android": { "legacyJetifier": false }
         }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 26
+          }
+        }
       ]
     ],
     "owner": "tirkashs-team",

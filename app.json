@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Mirovoy TV",
-    "slug": "mirovoy-tv-app-zdrvrw43tvs5svkbu-nww",
+    "slug": "mirovoytv-app",
     "version": "2.0.0",
     "orientation": "default",
     "icon": "./assets/icon.png",
@@ -41,7 +41,7 @@
     "owner": "tirkashs-team",
     "extra": {
       "eas": {
-        "projectId": "5b746ad7-080f-42a3-9f3b-ecfa1cdfbdc4"
+        "projectId": "7b79e564-5028-47f1-9047-aae06c62cdeb"
       }
     }
   }

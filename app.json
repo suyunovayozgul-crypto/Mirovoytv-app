@@ -21,7 +21,14 @@
       "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"]
     },
     "plugins": [
-      "./plugins/withAndroidTV.js"
+      "./plugins/withAndroidTV.js",
+      [
+        "react-native-vlc-media-player",
+        {
+          "ios": { "includeVLCKit": true },
+          "android": { "legacyJetifier": false }
+        }
+      ]
     ],
     "owner": "tirkashs-team",
     "extra": {

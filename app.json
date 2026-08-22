@@ -18,11 +18,13 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#02162f"
       },
-      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"]
+      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"],
+      "usesCleartextTraffic": true
     },
     "plugins": [
       "./plugins/withAndroidTV.js",
       "./plugins/withAbiSplit.js",
+      "react-native-video",
       [
         "expo-build-properties",
         {

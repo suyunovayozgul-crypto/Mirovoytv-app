@@ -24,13 +24,6 @@
       "./plugins/withAndroidTV.js",
       "./plugins/withAbiSplit.js",
       [
-        "react-native-vlc-media-player",
-        {
-          "ios": { "includeVLCKit": true },
-          "android": { "legacyJetifier": false }
-        }
-      ],
-      [
         "expo-build-properties",
         {
           "android": {

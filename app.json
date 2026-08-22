@@ -24,14 +24,15 @@
       "./plugins/withAndroidTV.js",
       "./plugins/withAbiSplit.js",
       [
-        "expo-build-properties",
-        {
-          "android": {
-            "minSdkVersion": 26
-          }
-        }
-      ]
-    ],
+  "expo-build-properties",
+  {
+    "android": {
+      "minSdkVersion": 26,
+      "compileSdkVersion": 35,
+      "targetSdkVersion": 35
+    }
+  }
+]
     "owner": "tirkashbeks-team",
     "extra": {
       "eas": {

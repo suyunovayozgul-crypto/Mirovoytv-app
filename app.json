@@ -11,20 +11,24 @@
       "resizeMode": "contain",
       "backgroundColor": "#02162f"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "android": {
       "package": "uz.mirovoytv.app",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#02162f"
       },
-      "permissions": ["INTERNET", "ACCESS_NETWORK_STATE"],
+      "permissions": [
+        "INTERNET",
+        "ACCESS_NETWORK_STATE"
+      ],
       "usesCleartextTraffic": true
     },
     "plugins": [
       "./plugins/withAndroidTV.js",
       "./plugins/withAbiSplit.js",
-      "react-native-video",
       [
         "expo-build-properties",
         {
@@ -36,9 +40,7 @@
     ],
     "owner": "tirkashbeks-team",
     "extra": {
-      "eas": {
-        "projectId": "7b79e564-5028-47f1-9047-aae06c62cdeb"
-      }
+      "eas": { "projectId": "7b79e564-5028-47f1-9047-aae06c62cdeb" }
     }
   }
 }

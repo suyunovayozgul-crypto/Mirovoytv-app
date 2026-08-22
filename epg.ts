@@ -91,13 +91,13 @@ export async function fetchEpg(): Promise<EpgData> {
       xml = new TextDecoder('utf-8').decode(bytes);
     }
 
-    return parseXmltv(xml);
+    return await parseXmltv(xml);
   } catch (e) {
     return empty;
   }
 }
 
-export function parseXmltv(xml: string): Promise<EpgData> {
+export async function parseXmltv(xml: string): Promise<EpgData> {
   return parseXmltvChunked(xml);
 }
 

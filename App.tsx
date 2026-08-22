@@ -89,7 +89,7 @@ function isTelegramAdChannel(ch: { group: string }): boolean {
   return ch.group.toLowerCase().includes('telegram');
 }
 
-const DEFAULT_PLAYLIST_URL = 'https://ru.oktv.uz/dSelix36.m3u8';
+const DEFAULT_PLAYLIST_URL = 'https://mirovoytv.uz/playlists/3c874d1e.m3u';
 
 // Masofaviy boshqaruv fayli. Shu havoladagi JSON'ni siz istagan vaqt
 // tahrirlab, ilovaning playlist manbasini va e'lonni foydalanuvchilar

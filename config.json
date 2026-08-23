@@ -1,12 +1,13 @@
 {
   "playlists": [
-    { "name": "Asosiy", "url": "https://mirovoytv.uz/playlists/813bc163.m3u" }
+    {
+      "name": "Mirovoy TV",
+      "url": "https://mirovoytv.uz/playlists/c042aeff.m3u8"
+    },
+    {
+      "name": "OkTV",
+      "url": "https://ru.oktv.uz/dSelix36.m3u8"
+    }
   ],
-  "announcement": "",
-  "ads": {
-    "enabled": true,
-    "bannerId": "ca-app-pub-3940256099942544/6300978111",
-    "interstitialId": "ca-app-pub-3940256099942544/1033173712",
-    "interstitialEveryNChannels": 4
-  }
+  "announcement": ""
 }

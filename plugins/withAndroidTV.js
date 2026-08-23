@@ -1,4 +1,3 @@
-
 /**
  * Expo config plugin — ilovani Android TV (Leanback) uchun ham
  * ishga tushiriladigan qilib qo'yadi.
@@ -11,7 +10,7 @@
  * Ishlatish: app.json -> "plugins" ro'yxatiga "./plugins/withAndroidTV.js"
  * qo'shilgan (allaqachon qo'shilgan).
  */
-const { withAndroidManifest } = require("@expo/config-plugins");
+const { withAndroidManifest } = require("expo/config-plugins");
 
 function withAndroidTV(config) {
   return withAndroidManifest(config, (config) => {

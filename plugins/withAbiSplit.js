@@ -12,7 +12,7 @@
 // "prebuild" jarayonida qaytadan yaratadi. Shu sabab bu o'zgarishni
 // build.gradle GENERATSIYA QILINGANDA avtomatik qo'shadigan plagin kerak
 // (xuddi ./plugins/withAndroidTV.js kabi).
-const { withAppBuildGradle } = require('@expo/config-plugins');
+const { withAppBuildGradle } = require('expo/config-plugins');
 
 const SPLIT_BLOCK = `
     splits {

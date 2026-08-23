@@ -23,7 +23,6 @@
   },
   "devDependencies": {
     "@babel/core": "^7.24.0",
-    "@expo/config-plugins": "~8.0.0",
     "@types/pako": "^2.0.3"
   }
 }

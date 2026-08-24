@@ -23,18 +23,26 @@
       "permissions": [
         "INTERNET",
         "ACCESS_NETWORK_STATE"
-      ]
+      ],
+      "usesCleartextTraffic": true
     },
     "plugins": [
       "./plugins/withAndroidTV.js",
       "./plugins/withAbiSplit.js",
+      [
+        "react-native-video",
+        {
+          "enableNotificationControls": false,
+          "enableADSExtension": false,
+          "enableDecoderExtension": true
+        }
+      ],
       "react-native-vlc-media-player",
       [
         "expo-build-properties",
         {
           "android": {
-            "minSdkVersion": 26,
-            "usesCleartextTraffic": true
+            "minSdkVersion": 26
           }
         }
       ]

@@ -1,4 +1,5 @@
-name": "mirovoy-tv",
+{
+  "name": "mirovoy-tv",
   "version": "2.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
